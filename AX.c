@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int N;
-    scanf("%d", &N);
+    long long N;  // Ganti tipe data menjadi long long
+    scanf("%lld", &N);
     
-    int A[N];
-    for (int i = 0; i < N; i++) {
-        scanf("%d", &A[i]);
+    long long A[N];  // Ganti tipe data array menjadi long long
+    for (long long i = 0; i < N; i++) {
+        scanf("%lld", &A[i]);
     }
     
-    int max_profit = 0;
+    long long max_profit = 0;  // Ganti tipe data menjadi long long
     
-    for (int i = 0; i < N; i++) {
+    for (long long i = 0; i < N; i++) {
         if (A[i] > 0) {
             max_profit += A[i];
         }
     }
     
-    printf("%d\n", max_profit);
+    printf("%lld\n", max_profit);  // Ganti format output menjadi %lld
     return 0;
 }
