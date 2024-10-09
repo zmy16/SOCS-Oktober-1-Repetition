@@ -38,7 +38,6 @@ int main() {
         }
     }
 
-    // Output posisi akhir
     printf("%d\n", currentPosition);
 
     return 0;

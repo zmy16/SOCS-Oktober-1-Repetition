@@ -9,7 +9,7 @@ int main() {
     for(int i = 0; i < T; i++){
         scanf("%lld", &money);
 
-        result += money; 
+        result = result + money; 
     }
     printf("%d\n", result);
 

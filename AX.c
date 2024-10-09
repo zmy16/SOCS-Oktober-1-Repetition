@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    long long N;  // Ganti tipe data menjadi long long
+    long long N;  
     scanf("%lld", &N);
     
-    long long A[N];  // Ganti tipe data array menjadi long long
+    long long A[N];  
     for (long long i = 0; i < N; i++) {
         scanf("%lld", &A[i]);
     }
     
-    long long max_profit = 0;  // Ganti tipe data menjadi long long
+    long long max_profit = 0;  
     
     for (long long i = 0; i < N; i++) {
         if (A[i] > 0) {
@@ -17,6 +17,5 @@ int main() {
         }
     }
     
-    printf("%lld\n", max_profit);  // Ganti format output menjadi %lld
-    return 0;
+    printf("%lld\n", max_profit); 
 }
